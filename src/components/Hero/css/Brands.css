@@ -1,0 +1,10 @@
+@media (max-width: 640px) {
+    .overflow-x-auto {
+      overflow-x: auto; /* Enable horizontal scrolling for smaller screens */
+      flex-wrap: nowrap; /* Prevent cards from wrapping */
+    }
+    .hidden {
+      display: none; /* Hide non-active cards */
+    }
+  }
+  
