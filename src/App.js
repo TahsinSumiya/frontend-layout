@@ -18,6 +18,7 @@ import DiscoverIndex from "./components/discover/DiscoverIndex";
 function App() {
   return (
     <>
+  
 <HeaderIndex/>
 <HeroIndex/>
 <DepartemntIndex/>
@@ -31,6 +32,7 @@ function App() {
 <VendorIndex/>
 <DiscoverIndex/>
 <DownFooter/>
+
     </>
 
   );

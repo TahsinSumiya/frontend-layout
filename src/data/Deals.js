@@ -20,6 +20,24 @@ const dealsdata = [
         discount:'-50%',
         img: chocolate,
     },
+    {
+        id: 3,
+        title: 'Wireless Blutooth Headset Single',
+        p:'Wireless Blutooth Headset Single',
+        cost:'$8',
+        totalcost:'$16',
+        discount:'-50%',
+        img: chocolate,
+    },
+    {
+        id: 4,
+        title: 'Wireless Blutooth Headset Single',
+        p:'Wireless Blutooth Headset Single',
+        cost:'$8',
+        totalcost:'$16',
+        discount:'-50%',
+        img: chocolate,
+    },
 
 
 

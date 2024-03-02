@@ -4,7 +4,7 @@ import Brands from './Brands';
 export default function Hero() {
   return (
 
-    <div className='w-auto sm:w-[200px]  md:w-[300px] lg:w-[500px] xl:w-[700px] 2xl:w-[980px] mx-5'>
+    <div className='w-auto  sm:w-[200px]  md:w-[300px] lg:w-[500px] xl:w-[700px] 2xl:w-[1000px] mx-2 xl:mx-15 2xl:mx-20'>
       <div className="h-96 sm:h-64 xl:h-[500px]">
       <Carousel leftControl=" " rightControl=" ">
       <div className="relative">

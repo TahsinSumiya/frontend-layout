@@ -3,19 +3,19 @@ import { FaRegStar } from 'react-icons/fa';
 import { BsBullseye } from 'react-icons/bs';
 import { CgScan } from 'react-icons/cg';
 import { FaShoppingCart } from 'react-icons/fa';
-import dealsdata from '../../data/Deals';
 
-export default function Products() {
+
+export default function Products({img,title}) {
   return (
-    <div className='grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-4 my-5  '>
-    {dealsdata.map((item) => (
 
-<a href="#" key={item.id} className="flex flex-col mx-2 sm:mx-5 mb-5 items-center bg-grey-400 border
+   
+
+<a href="#"  className="flex flex-col mx-2 sm:mx-5 mb-5 items-center bg-grey-400 border
  border-gray-200 rounded-lg shadow md:flex-row w-auto
   hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-          <img className="object-cover w-full mx-2 my-5 rounded-t-lg h-80 md:w-80 md:rounded-none md:rounded-l-lg" src={item.img} alt=""/>
+          <img className="object-cover w-full mx-2 my-5 rounded-t-lg h-80 md:w-80 md:rounded-none md:rounded-l-lg" src={img} alt=""/>
           <div className="flex flex-col justify-between p-4 leading-normal w-full">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{item.title}</h5>
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{title}</h5>
             <div className="mb-3 font-normal text-amber-400 mx-2 flex">
               <FaRegStar /><FaRegStar /><FaRegStar /><FaRegStar /><FaRegStar />
               <p className='text-black mx-2'>4.5(121)</p>
@@ -33,7 +33,7 @@ export default function Products() {
           </div>
         </a>
 
-))}
-  </div>
+
+
   );
 }
