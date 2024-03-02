@@ -17,7 +17,7 @@ export default function DownFooter() {
     <div class=" ">
 
       <div class="grid grid-cols-2 gap-8 px-4 
-      py-6 lg:py-8 md:grid-cols-5">
+      py-2 lg:py-2 md:grid-cols-5">
    
         <div>
           <h1 className='text-2xl font-bold text-black'>Essence</h1>
@@ -136,12 +136,12 @@ export default function DownFooter() {
              transition ease-in-out delay-150  hover:-translate-y-1 
               duration-300
             ">Download app</h2>
-<div className='flex '>
+<div className='flex flex-col sm:flex-row md:flex-col lg:flex-col xl:flex-col 2xl:flex-row  '>
 
 <button type="button" class="flex bg-white hover:bg-[#3b5998]/90 focus:ring-4 border border-black
-  focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-lg text-sm px-5 py-2.5 w-96
-  text-center items-center dark:focus:ring-[#3b5998]/55 me-2 mb-2">
-  <BiLogoPlayStore className='text-6xl' />
+  focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-lg text-sm px-5 py-2.5 w-auto 2xl:w-72 
+  text-center items-center dark:focus:ring-[#3b5998]/55 me-2 mb-2  ">
+  <BiLogoPlayStore className='text-3xl' />
   <div>
     <p className='text-xs'>Get it on</p> 
     <strong>Google play</strong>
@@ -149,9 +149,9 @@ export default function DownFooter() {
 </button>
 
 <button type="button" class="flex bg-white hover:bg-[#3b5998]/90 focus:ring-4 border border-black
-  focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-lg text-sm px-5 py-2.5 w-96
-  text-center x items-center dark:focus:ring-[#3b5998]/55 me-2 mb-2">
-  <BiLogoPlayStore className='text-6xl' />
+  focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-lg text-sm px-5 py-2.5 w-auto 2xl:w-72 
+  text-center x items-center dark:focus:ring-[#3b5998]/55 me-2 mb-2 "> 
+  <BiLogoPlayStore className='text-3xl' />
   <div>
     <p className='text-xs'>Download on the</p> 
     <strong>App Store</strong>
@@ -161,10 +161,10 @@ export default function DownFooter() {
 </div>
 
 <div className='flex my-20 gap-x-16 '>
-<FaFacebookF className=' bg-slate-200 text-5xl '/>
-<FaInstagram className='bg-slate-200 text-5xl '/>
-<FaLinkedin className='bg-slate-200 text-5xl '/>
-<FaTwitter className='bg-slate-200 text-5xl '/>
+<FaFacebookF className=' bg-slate-200 text-3xl '/>
+<FaInstagram className='bg-slate-200 text-3xl '/>
+<FaLinkedin className='bg-slate-200 text-3xl '/>
+<FaTwitter className='bg-slate-200 text-3xl '/>
 </div>
 
         </div>
